@@ -199,7 +199,7 @@ font-size: 14px;
 
 
 .about-hero {
-    background-image: url("../folder_img/background_image.jpg"); 
+    background-image: url("folder_img/background_image.jpg"); 
     background-size: cover;
     background-position: center;
     padding: 100px 20px;
