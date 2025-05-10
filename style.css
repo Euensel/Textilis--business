@@ -437,3 +437,55 @@ p {
   }
   
 }
+
+/* RESPONSIVE DESIGN POUR TÉLÉPHONES */
+@media (max-width: 768px) {
+
+  body {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  header, nav, footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .container, .content, .section {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  h1, h2, h3, p {
+    word-wrap: break-word;
+  }
+
+  .hero, .banner, .presentation {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .grid, .cards, .row {
+    display: block;
+  }
+
+  button, .btn {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+}
+
